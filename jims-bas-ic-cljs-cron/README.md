@@ -1,8 +1,14 @@
 # jims-bas-ic-cljs-cron
 
+
+# Set AWS IAM Role
+
+`lein cljs-lambda default-iam-role`
+
+
 # Deploy
 
-```shell
+```
 $ serverless deploy
 ```
 
@@ -14,6 +20,6 @@ $ serverless deploy function -f echo
 
 # Invoke
 
-```shell
+```
 $ curl -X POST <url> -H 'Content-Type: application/json' -d '{"body": "Hi"}'
 ```

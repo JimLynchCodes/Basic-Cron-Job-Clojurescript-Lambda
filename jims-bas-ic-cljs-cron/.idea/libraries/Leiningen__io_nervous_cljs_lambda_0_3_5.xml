@@ -1,0 +1,8 @@
+<component name="libraryTable">
+  <library name="Leiningen: io.nervous/cljs-lambda:0.3.5">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/nervous/cljs-lambda/0.3.5/cljs-lambda-0.3.5.jar!/" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>
